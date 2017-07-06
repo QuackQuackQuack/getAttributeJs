@@ -1,7 +1,7 @@
 /**
  * getDataAttribute description
  * @param  {Object} obj Object.
- * @param  {arry| string} searchWord searchWord.
+ * @param  {array| string} searchWord searchWord.
  * @return {Object} get attributes info
  */
 function getDataAttribute(obj, searchWord) {
