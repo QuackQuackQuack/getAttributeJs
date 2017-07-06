@@ -1,5 +1,6 @@
 # getDataAttribute Function
-> U can get Data attributes type of JSON from DOM.
+> U can get Data attributes from DOM.
+> the result is type of JSON.
 
 ## License
 
