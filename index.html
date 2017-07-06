@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get Data attributes</title>
+  </head>
+  <body>
+    <div href="#test1" data-index="1" data-test="test" data-git="git" id="test1" value="1" data-value="1"></div>
+    <script src="getDataAttribute.js"></script>
+    <script>
+    const testObj = document.querySelectorAll('[data-index]');
+    const all = getDataAttribute(testObj);
+    const arraySearch = getDataAttribute(testObj, ['data-index', 'href']);
+    const stringSearch = getDataAttribute(testObj, 'data-index');
+    console.log('all', all);
+    console.log('arraySearch', arraySearch);
+    console.log('stringSearch', stringSearch);
+    </script>
+  </body>
+</html>
